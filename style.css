@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Short Stack';
+}
+.row {
+    display: flex;
+    height: 100vh;
+}
+
+.first-column {
+    background-color: #2D85DE;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.first-column img {
+    margin: 0 60px;
+    width: 65%;
+    height: 100vh;
+}
+.second-column {
+    float: left;
+    width: 70%;
+    background: url(images/images/spec.png) no-repeat center bottom /contain;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.form-header {
+    margin-top: 30px;
+}
+
+.form-header h1 {
+    font-size: 30px;
+    text-align:center;
+    color: black;
+    padding:20px 0;
+}
+
+.signup-form {
+    padding: 20px 40px;
+    margin: 0 auto;
+    width:50%;
+}
+
+
+
+.form-body {
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 1px rgb(0 0 0 / 20%);   
+}
+
+.form-body input {
+    width: 290px;
+    padding: 12px;
+    margin-top: 2px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.register-btn {
+    font-weight: bold;
+    font-size: 14px;
+    width: 320px;
+    background:#2D85DE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+
+.form-body .label-title {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .first-column {
+        display: none;
+    }
+
+    .second-column {
+        width: 100%;
+    }
+
+    .form-body {
+        justify-content: center;
+        padding: 10px;
+        margin: 10px
+    }
+
+    .form-body input {
+        width: 160px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .register-btn{
+        width: 180px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .form-body {
+        padding: 13px;
+        margin: -25px;
+    }
+
+}
+
+/* login page styling  */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-column-LP {
+    background-color: #2D85DE;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.first-column-LP img {
+    margin: 0 60px;
+    width: 65%;
+    height: 100vh;
+}
+
+.login-form {
+    padding: 20px 40px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.login-btn {
+    font-weight: bold;
+    font-size: 14px;
+    width: 320px;
+    background:#2D85DE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .first-column-LP {
+        display: none;
+    }
+
+    .second-column {
+        width: 100%;
+    }
+
+    .form-body {
+        padding: 10px;
+        margin: 10px
+    }
+
+    .form-body input {
+        width: 160px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .login-btn{
+        width: 180px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .form-body {
+        padding: 13px;
+        margin: -25px;
+    }
+}

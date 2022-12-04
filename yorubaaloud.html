@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoruba-Aloud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-page">
+        <div class="container">
+            <div class="row">
+                <div class="first-column">
+                    <img src="./images/images/sigimg.png" alt="">
+                </div>
+                <div class="second-column">
+                    <div class="main">
+                        <div class="form-header">
+                            <h1>Register</h1>
+                        </div>
+
+                        <form class="signup-form" action="/register" method="post">
+                            <div class="form-body">
+                                <label for="userName" class="label-title">Name</label>
+                                <br>
+                                <input id="userName" type="text" placeholder="Enter Name" name="userName">
+                                <br><br>
+                                <label for="userEmail" class="label-title">Email Address</label>
+                                <br>
+                                <input id="userEmail" type="email" placeholder="Enter Email Address" name="userEmail">
+                                <br><br>
+                                <label for="psw" class="label-title">Password</label>
+                                <br>
+                                <input id="psw" type="password" placeholder="Enter Password" name="psw">
+                                <br><br>
+                                <label for="psw-repeat" class="label-title">Confirm Password</label>
+                                <br>
+                                <input id="psw-repeat" type="password" placeholder="Confirm Password" name="psw-repeat">
+                                <br><br>
+                                <button type="submit" class="register-btn">Create Account</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="makeitwork.js"></script>
+</body>
+</html>
