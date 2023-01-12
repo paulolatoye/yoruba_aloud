@@ -88,6 +88,32 @@ body {
     padding: 12px;
 }
 
+/* @keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }
+
+.spin::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    left: 10%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+  } */
+
 
 .form-body .label-title {
     color: black;
@@ -201,12 +227,114 @@ body {
 
 }
 
-
-
 @media screen and (max-width: 1200px) {
 
     .form-body {
         padding: 13px;
         margin: -25px;
+    }
+}
+
+
+/* error page styling*/
+
+.project-logo img {
+    width: 5%;
+    margin-left: 15px;
+    padding-top: 15px;
+    margin-bottom: -53px;
+    position: center;
+}
+
+.error-row {
+    height: 100vh;
+    text-align: center;
+}
+
+.error-404 {
+    padding-top: 100px;
+}
+
+.error-404 img {
+    width: 5%;
+    margin-bottom: 0;
+}
+
+.error-404 h1 {
+    color: #2D85DE;
+    font-size: 200px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.error-description {
+    padding-top: 0;
+    margin-top: -24px;
+    color: #7c7e79;
+}
+
+.error-description h4 {
+    font-size: 28px;
+}
+
+.error-description h5 {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .error-404 img {
+        width: 20%;
+        margin-bottom: 0;
+    }
+    
+    .error-404 h1 {
+        color: #2D85DE;
+        font-size: 150px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    
+    .error-description {
+        padding-top: 0;
+        margin-top: -24px;
+        color: #7c7e79;
+    }
+    
+    .error-description h5 {
+        font-size: 12px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .error-404 {
+        padding-top: 40px;
+    }
+    
+    .error-404 img {
+        width: 10%;
+        margin-bottom: 0;
+    }
+    
+    .error-404 h1 {
+        color: #2D85DE;
+        font-size: 150px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    
+    .error-description {
+        padding-top: 0;
+        margin-top: -24px;
+        color: #7c7e79;
+    }
+    
+    .error-description h5 {
+        font-size: 12px;
+        margin-top: 0;
     }
 }
